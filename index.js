@@ -6,8 +6,8 @@
 */
 
 // Tokens
-import colors from './src/tokens/colors';
-import gradients from './src/tokens/gradients';
+import colors from './src/tokens/gradients';
+import gradients from './src/tokens/colors';
 import typography from './src/tokens/typography';
 
 const moduleExports = {

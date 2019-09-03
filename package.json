@@ -66,7 +66,7 @@
     "test": "node Storyshots.test.js",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook -c .storybook -o docs",
-    "generate-css": "npx tailwind build base/index.css -o other/output.css"
+    "generate-css": "npx tailwind build other/base.css -o other/output.css"
   },
   "eslintConfig": {
     "extends": "react-app"
