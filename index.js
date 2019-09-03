@@ -5,11 +5,14 @@
   Author- Himanshu Dixit
 */
 
+// Tokens
 import colors from './src/tokens/colors';
+import gradients from './src/tokens/gradients';
 
 const moduleExports = {
     tokens:{
-        colors: colors
+        colors: colors,
+        gradients: gradients
     }
 }
 
