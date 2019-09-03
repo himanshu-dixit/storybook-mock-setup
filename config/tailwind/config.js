@@ -1,4 +1,4 @@
-import {colors} from "../../src/tokens/colors";
+const colors = require('../../src/tokens/colors.js').default;
 module.exports = {
   prefix: '',
   important: false,

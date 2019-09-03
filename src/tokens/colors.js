@@ -10,7 +10,7 @@
 */
 const systemColors = {
     'rhapsody': '#EC1943',
-    'protagonis': '#5156C7',
+    'protagonist': '#5156C7',
     'success': '#7B68DB',
     'warning': '#FFBB58',
     'antagonis': '#A85B00',
@@ -27,5 +27,6 @@ const systemColors = {
         'white': '#FFFFFF'
     }
 }
-
-export default systemColors;
+module.exports ={
+  default: systemColors
+} ;
