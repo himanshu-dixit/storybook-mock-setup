@@ -27,13 +27,8 @@ const typography = {
       '7.5': '3.75rem', //60px
     },
     weight:{
-      'content': {
-         'bold': '900',
-         'normal': '400'
-      },
-      'heading':{
-        'normal': '400'
-      }  
+      'bold': '900',
+      'normal': '400'
     },
     lineHeight:{
       '2': '1rem', //16px
@@ -41,4 +36,4 @@ const typography = {
     }
 }
 
-export default typography;
+module.exports.default = typography;

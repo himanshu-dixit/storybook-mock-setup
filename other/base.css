@@ -1,3 +1,9 @@
+/* Consistend line height across all the system*/
+
+body{
+    line-height: 1.6; 
+}
+
 @tailwind base;
 
 @tailwind components;
