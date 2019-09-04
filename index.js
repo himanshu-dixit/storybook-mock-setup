@@ -10,12 +10,23 @@ import colors from './src/tokens/gradients';
 import gradients from './src/tokens/colors';
 import typography from './src/tokens/typography';
 
-const moduleExports = {
-    tokens:{
-        colors: colors,
-        gradients: gradients,
-        typography: typography
-    }
-}
+//Atoms
+import textBlockComponent from './src/atoms/textBlock';
 
-export default moduleExports;
+
+export const tokens = {
+    colors: colors,
+    gradients: gradients,
+    typography: typography
+};
+
+export const TextBlock = textBlockComponent;
+
+// module.exports = {
+//     tokens: {
+//         colors: colors,
+//         gradients: gradients,
+//         typography: typography
+//     },
+//     TextBlock: textBlockComponent
+// }
