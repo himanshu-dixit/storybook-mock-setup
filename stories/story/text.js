@@ -9,7 +9,7 @@ import { TextBlock } from '../../index';
 // Render button related stories
 export const renderTextStories = ()=>{
 
-    storiesOf('Text', module)
+    storiesOf('TextBlock', module)
         .add('normal', () => <TextBlock>Heading Out</TextBlock>)
         .add('Font Family', () => {
             return (
