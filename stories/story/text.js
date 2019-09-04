@@ -11,7 +11,7 @@ export const renderTextStories = ()=>{
 
     storiesOf('Text', module)
         .add('normal', () => <TextBlock>Heading Out</TextBlock>)
-        .add('Font', () => {
+        .add('Font Family', () => {
             return (
                 <div>
                     <TextBlock family="heading">Check</TextBlock>
