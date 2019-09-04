@@ -8,44 +8,27 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import '../../other/output.css';
-import { deletePropertiesFromObject } from '../helper/utils';
+import { deletePropertiesFromObject, isDefined } from '../helper/utils';
+import { isUndefined } from 'util';
+var classNames = require('classnames');
 
 const TextBlock = (props) => {
-    let tailWindClass = '';
 
     const { size, family, weight, color, tailwind, children } = props;
     const propertiesToRemove = ["size", "family", "weight", "color", "children", "tailwind"];
 
     //Make shallow copy of the object.
     const clonedProps = Object.assign({},props);
-
-    // Define size of the text
-    if(size){
-        tailWindClass += ` text-${size}`
-    }
-
-    // Define family of the text
-    if (family) {
-        tailWindClass += ` font-${family}`
-    }
-
-    // Define weight of the text
-    if (weight) {
-        tailWindClass += ` font-${weight}`
-    }
-
-    // Define color of the text
-    if (color) {
-        tailWindClass += ` text-${color}`
-    }
-
-    // For overriding, defining custom options
-    if (tailwind){
-        tailWindClass += ` ${tailwind}`;
-    }
-
-    tailWindClass = tailWindClass.trim(); //Remove white space from starting
-
+    
+    // Generate class names for the div
+    let tailWindClass = classNames({ 
+        [`font-${family}`]: isDefined(family),
+        [`font-${weight}`]: isDefined(weight),
+        [`text-${color}`]: isDefined(color),
+        [`text-${size}`]: isDefined(size),
+        [`${tailwind}`]: isDefined(tailwind),
+    });
+       
     // Remove all defined property from shallowCopy
     deletePropertiesFromObject(clonedProps, propertiesToRemove);
 

@@ -6,3 +6,7 @@ export const deletePropertiesFromObject = (object, propertiesToRemove) => {
         console.log(object)
     }
 }
+
+export const isDefined = (variable)=>{
+    return typeof variable !== 'undefined';
+}
