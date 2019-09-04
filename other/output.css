@@ -4,6 +4,118 @@ body{
   line-height: 1.6;
 }
 
+@font-face{
+  font-family:"Avenir";
+
+  src:url("https://cdn-s3.headout.com/assets/fonts/avenir-light.eot?#iefix");
+
+  src:url("https://cdn-s3.headout.com/assets/fonts/avenir-light.eot?#iefix") format("eot"),
+  url("https://cdn-s3.headout.com/assets/fonts/avenir-light.woff2") format("woff2"),
+  url("https://cdn-s3.headout.com/assets/fonts/avenir-light.woff") format("woff"),
+  url("https://cdn-s3.headout.com/assets/fonts/avenir-light.ttf") format("truetype");
+
+  font-weight: 300;
+}
+
+@font-face{
+  font-family:"Avenir";
+
+  src:url("https://cdn-s3.headout.com/assets/fonts/avenir-roman.eot?#iefix");
+
+  src:url("https://cdn-s3.headout.com/assets/fonts/avenir-roman.eot?#iefix") format("eot"),
+  url("https://cdn-s3.headout.com/assets/fonts/avenir-roman.woff2") format("woff2"),
+  url("https://cdn-s3.headout.com/assets/fonts/avenir-roman.woff") format("woff"),
+  url("https://cdn-s3.headout.com/assets/fonts/avenir-roman.ttf") format("truetype");
+
+  font-weight: 400;
+}
+
+@font-face{
+  font-family:"Avenir";
+
+  src:url("https://cdn-s3.headout.com/assets/fonts/avenir-medium.eot?#iefix");
+
+  src:url("https://cdn-s3.headout.com/assets/fonts/avenir-medium.eot?#iefix") format("eot"),
+  url("https://cdn-s3.headout.com/assets/fonts/avenir-medium.woff2") format("woff2"),
+  url("https://cdn-s3.headout.com/assets/fonts/avenir-medium.woff") format("woff"),
+  url("https://cdn-s3.headout.com/assets/fonts/avenir-medium.ttf") format("truetype");
+
+  font-weight: 500;
+}
+
+@font-face{
+  font-family:"Avenir";
+
+  src:url("https://cdn-s3.headout.com/assets/fonts/avenir-black.eot?#iefix");
+
+  src:url("https://cdn-s3.headout.com/assets/fonts/avenir-black.eot?#iefix") format("eot"),
+  url("https://cdn-s3.headout.com/assets/fonts/avenir-black.woff2") format("woff2"),
+  url("https://cdn-s3.headout.com/assets/fonts/avenir-black.woff") format("woff"),
+  url("https://cdn-s3.headout.com/assets/fonts/avenir-black.ttf") format("truetype");
+
+  font-weight: 600;
+}
+
+@font-face{
+  font-family:"Graphik";
+
+  src:url("https://cdn-s3.headout.com/assets/fonts/Graphik-Bold-Web.eot?#iefix");
+
+  src:url("https://cdn-s3.headout.com/assets/fonts/Graphik-Bold-Web.eot?#iefix") format("eot"),
+  url("https://cdn-s3.headout.com/assets/fonts/Graphik-Bold-Web.woff2") format("woff2"),
+  url("https://cdn-s3.headout.com/assets/fonts/Graphik-Bold-Web.woff") format("woff");
+
+  font-weight: 700;
+}
+
+@font-face{
+  font-family:"Graphik";
+
+  src:url("https://cdn-s3.headout.com/assets/fonts/Graphik-Semibold-Web.eot?#iefix");
+
+  src:url("https://cdn-s3.headout.com/assets/fonts/Graphik-Semibold-Web.eot?#iefix") format("eot"),
+  url("https://cdn-s3.headout.com/assets/fonts/Graphik-Semibold-Web.woff2") format("woff2"),
+  url("https://cdn-s3.headout.com/assets/fonts/Graphik-Semibold-Web.woff") format("woff");
+
+  font-weight: 600;
+}
+
+@font-face{
+  font-family:"Graphik";
+
+  src:url("https://cdn-s3.headout.com/assets/fonts/Graphik-Medium-Web.eot?#iefix");
+
+  src:url("https://cdn-s3.headout.com/assets/fonts/Graphik-Medium-Web.eot?#iefix") format("eot"),
+  url("https://cdn-s3.headout.com/assets/fonts/Graphik-Medium-Web.woff2") format("woff2"),
+  url("https://cdn-s3.headout.com/assets/fonts/Graphik-Medium-Web.woff") format("woff");
+
+  font-weight: 500;
+}
+
+@font-face{
+  font-family:"Graphik";
+
+  src:url("https://cdn-s3.headout.com/assets/fonts/Graphik-Regular-Web.eot?#iefix");
+
+  src:url("https://cdn-s3.headout.com/assets/fonts/Graphik-Regular-Web.eot?#iefix") format("eot"),
+  url("https://cdn-s3.headout.com/assets/fonts/Graphik-Regular-Web.woff2") format("woff2"),
+  url("https://cdn-s3.headout.com/assets/fonts/Graphik-Regular-Web.woff") format("woff");
+
+  font-weight: 400;
+}
+
+@font-face{
+  font-family:"Graphik";
+
+  src:url("https://cdn-s3.headout.com/assets/fonts/Graphik-Light-Web.eot?#iefix");
+
+  src:url("https://cdn-s3.headout.com/assets/fonts/Graphik-Light-Web.eot?#iefix") format("eot"),
+  url("https://cdn-s3.headout.com/assets/fonts/Graphik-Light-Web.woff2") format("woff2"),
+  url("https://cdn-s3.headout.com/assets/fonts/Graphik-Light-Web.woff") format("woff");
+
+  font-weight: 300;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
