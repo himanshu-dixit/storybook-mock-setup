@@ -4,6 +4,10 @@ body{
     line-height: 1.6; 
 }
 
+.max-width-1200{
+    max-width: 1200px;
+}
+
 @font-face{
   font-family:"Avenir";
   src:url("https://cdn-s3.headout.com/assets/fonts/avenir-light.eot?#iefix");
